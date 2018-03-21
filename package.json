@@ -1,0 +1,63 @@
+{
+  "name": "egg-view-arttemplate",
+  "version": "2.0.0",
+  "description": "egg view plugin for arttemplate",
+  "eggPlugin": {
+    "name": "arttemplate",
+    "dependencies": [
+      "view"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-view",
+    "arttemplate"
+  ],
+  "dependencies": {
+    "art-template": "^4.12.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "egg": "next",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.13.1",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.1",
+    "mz": "^2.7.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "files": [
+    "config",
+    "app",
+    "lib",
+    "app.js"
+  ],
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesliauw/egg-egg-view-arttemplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/jamesliauw/egg-egg-view-arttemplate#readme",
+  "author": "James Liauw",
+  "license": "MIT"
+}
