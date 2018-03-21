@@ -1,6 +1,6 @@
 {
   "name": "egg-view-arttemplate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "egg view plugin for arttemplate",
   "eggPlugin": {
     "name": "arttemplate",
@@ -52,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesliauw/egg-egg-view-arttemplate.git"
+    "url": "git+https://github.com/jamesliauw/egg-view-arttemplate.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/jamesliauw/egg-egg-view-arttemplate#readme",
+  "homepage": "https://github.com/jamesliauw/egg-view-arttemplate#readme",
   "author": "James Liauw",
   "license": "MIT"
 }
