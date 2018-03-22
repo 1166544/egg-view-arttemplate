@@ -16,8 +16,6 @@ module.exports = {
     const cacheDataList = this[TEMPLATE_CACHE];
 
     cacheDataList[key] = value;
-
-    console.log(cacheDataList);
   },
 
 };

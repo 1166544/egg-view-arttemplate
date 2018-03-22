@@ -1,6 +1,6 @@
 {
   "name": "egg-view-arttemplate",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "egg view plugin for arttemplate",
   "eggPlugin": {
     "name": "arttemplate",
